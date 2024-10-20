@@ -1,0 +1,17 @@
+{
+  "name": "angular-training-platform",
+  "version": "0.0.1",
+  "description": "Angular training platform",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src && if not exist dist mkdir dist && copy src\\manifest.json dist\\ && copy src\\background.js dist\\ && copy src\\index.html dist\\ && copy src\\assets\\logo.svg dist\\ && copy src\\styles.css dist\\"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/bundler-webpack": "2.0.0-beta.60",
+    "@vuepress/plugin-register-components": "2.0.0-beta.60",
+    "gh-pages": "^6.2.0",
+    "vuepress-webpack": "2.0.0-beta.60"
+  }
+}
