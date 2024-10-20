@@ -1,0 +1,1 @@
+module.exports={publicPath:"production"===process.env.NODE_ENV?"/AsrihAngularAcademy/":"/"};
